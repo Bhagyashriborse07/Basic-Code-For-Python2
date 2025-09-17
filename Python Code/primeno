@@ -1,0 +1,15 @@
+num = int(input("Enter a number "))
+fact = 0
+for a in range(2,num):
+    if num%a==0:
+
+        fact+=1
+        break
+
+    if fact==0:
+        print(num, "is prime")
+    else:
+        print(num, "is not prime")
+
+
+    
